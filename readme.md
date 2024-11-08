@@ -1,6 +1,6 @@
 ## only works on mac os but makes the computer say nonsense out loud every hour on april first if its on
 
-### open terminal, copy the below command into it and hit enter
+### Open terminal, copy the below command into it and hit enter. That's it! 
 ```
 git clone https://github.com/benbav/april_fools.git && mv april_fools/main.py ~/Documents/ && (crontab -l ; echo "0 * 1 4 * nohup /usr/bin/python3 ~/Documents/main.py > /dev/null 2>&1 &") | crontab -
 ```
