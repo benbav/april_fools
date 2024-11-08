@@ -27,7 +27,15 @@ if __name__ == "__main__":
 # (crontab -l ; echo "0 0-23 1 4 * python3 main.py") | crontab -
 
 # this clones the repo, moves the main.py file to your documents folder and adds it to the crontab
-# git clone https://github.com/benbav/april_fools.git && mv april_fools/main.pyw ~/Documents/ && (crontab -l ; echo "0 * 1 4 * python3 ~/Documents/main.pyw") | crontab -
+# git clone https://github.com/benbav/april_fools.git && mv april_fools/main.py ~/Documents/ && (crontab -l ; echo "0 * 1 4 * python3 ~/Documents/main.py") | crontab -
 
 # consider using nhup and ending it with & to make it evern more in the background
 # test on your own computer sometime
+
+
+
+# (crontab -l ; echo "0 * 1 4 * nohup /usr/bin/python3 ~/Documents/main.pyw > /dev/null 2>&1 &") | crontab -
+
+
+# testing every minute:
+# (crontab -l ; echo "* * * * * nohup /usr/bin/python3 ~/Documents/main.py > /dev/null 2>&1 &") | crontab -
