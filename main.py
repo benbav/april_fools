@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import platform
 import random
 import os 
 
@@ -6,7 +7,8 @@ lst = ['its fucking april fools fuck shit fuck ass fuck', 'fuck fuck, oh fuck', 
 
 def main():
     output = random.choice(lst)
-    os.system('say ' + output)
+    if platform.system() == 'Darwin': # only works on MacOS
+        os.system('say ' + output)
 
 if __name__ == "__main__":
     main()
