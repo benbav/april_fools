@@ -27,4 +27,5 @@ if __name__ == "__main__":
 # (crontab -l ; echo "0 0-23 1 4 * python3 main.py") | crontab -
 
 # this clones the repo, moves the main.py file to your documents folder and adds it to the crontab
-# git clone https://github.com/benbav/april_fools.git && mv repo-name/main.py ~/Documents/ && (crontab -l ; echo "0 * 1 4 * python3 ~/Documents/main.py") | crontab -
+# git clone https://github.com/benbav/april_fools.git && mv april_fools/main.py ~/Documents/ && (crontab -l ; echo "0 * 1 4 * python3 ~/Documents/main.py") | crontab -
+
