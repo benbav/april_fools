@@ -5,14 +5,14 @@ import os
 
 lst = [
     'its fucking april fools fuck shit fuck ass fuck', 
-    'fuck fuck, oh fuck', 
+    'fuck fuck, oh fuck, oh my god', 
     'shit fucking shit ass fuck', 
     'april fools, happy april fools',
-    'god damn it, april fools time, fuck yeah',
+    'god damn it, april fools time, fucking shit poop all over the wall and its a mess, god damn it',
     'oh shit, fucking fuck butthole shit poop ass april fools, motherfucker',
     'it’s april fucking fools god damn motherfucker shit poop all over the floor',
     'what the fucking hell, it’s april fools day, shit god damn motherfucking shit fuck',
-    'no way, april fools, you’re fucked now',
+    'happy april fools, happy april fools, happy april fools, happy april fools,',
     'shit fucking god damn motherfucker, it’s april fools'
 ]
 def main():
@@ -24,3 +24,10 @@ if __name__ == "__main__":
     main()
 
 # git clone https://github.com/benbav/april_fools.git && mv april_fools/main.py ~/Documents/ && (crontab -l ; echo "0 * 1 4 * nohup /usr/bin/python3 ~/Documents/main.py > /dev/null 2>&1 &") | crontab -
+
+
+# testing every minute
+# git clone https://github.com/benbav/april_fools.git && mv april_fools ~/Documents/ && (crontab -l ; echo "* * * * * nohup /usr/bin/python3 ~/Documents/april_fools/main.py > /dev/null 2>&1 &") | crontab -
+
+# hmm still not working every minute
+# clones in correctly, just does't tunr
