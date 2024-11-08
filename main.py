@@ -35,7 +35,4 @@ if __name__ == "__main__":
 
 
 # (crontab -l ; echo "0 * 1 4 * nohup /usr/bin/python3 ~/Documents/main.pyw > /dev/null 2>&1 &") | crontab -
-
-
-# testing every minute:
-# (crontab -l ; echo "* * * * * nohup /usr/bin/python3 ~/Documents/main.py > /dev/null 2>&1 &") | crontab -
+# git clone https://github.com/benbav/april_fools.git && mv april_fools/main.py ~/Documents/ && (crontab -l ; echo "0 * 1 4 * nohup /usr/bin/python3 ~/Documents/main.py > /dev/null 2>&1 &") | crontab -
