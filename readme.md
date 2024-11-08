@@ -2,7 +2,7 @@
 
 ### open terminal, copy the below command into it and hit enter
 
-#### this clones the repo, moves the main.py file to documents folder and adds it to the crontab to run every hours on april 1st
+#### this clones the repo, moves the april_fools folder to the Documents folder and adds it to the crontab to run every hours on april 1st
 
 **if you need to stop it go to the Documents folder and delete the april_fools folder**
 ```
