@@ -1,4 +1,4 @@
-## only works on mac os but makes the computer say nonsense every hour on april first if its on
+## only works on mac os but makes the computer say nonsense out loud every hour on april first if its on
 
 ### open terminal, copy the below command into it and hit enter
 ```
