@@ -22,12 +22,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# git clone https://github.com/benbav/april_fools.git && mv april_fools/main.py ~/Documents/ && (crontab -l ; echo "0 * 1 4 * nohup /usr/bin/python3 ~/Documents/main.py > /dev/null 2>&1 &") | crontab -
-
-
-# testing every minute
-# git clone https://github.com/benbav/april_fools.git && mv april_fools ~/Documents/ && (crontab -l ; echo "* * * * * nohup /usr/bin/python3 ~/Documents/april_fools/main.py > /dev/null 2>&1 &") | crontab -
-
-# hmm still not working every minute
-# clones in correctly, just does't tunr
