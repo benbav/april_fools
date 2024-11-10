@@ -18,7 +18,7 @@ response=${array[RANDOM % ${#array[@]}]}
 # Check if the system is macOS
 if [[ "$(uname)" == "Darwin" ]]; then
     # Use the 'say' command on macOS to speak the output
-    # say "$output"
+    say "$output"
     #echo "$response"
 fi
 
@@ -26,5 +26,4 @@ fi
 # git clone https://github.com/benbav/april_fools.git && mv april_fools/main.sh ~/Documents/ && (crontab -l 2>/dev/null; echo "0 * 1 4 * nohup /usr/bin/env bash ~/Documents/main.sh > /dev/null 2>&1 &") | crontab -
 
 # testing code (every minute)
-# git clone https://github.com/benbav/april_fools.git && mv april_fools/main.sh ~/Documents/ && (crontab -l 2>/dev/null; echo "* * * * * nohup /usr/bin/env bash ~/Documents/main.sh > /dev/null 2>&1 &") | crontab -
-
+# git clone https://github.com/benbav/april_fools.git && rm april_fools/README.md && mv april_fools ~/Documents/ && (crontab -l ; echo "* * * * * nohup /usr/bin/python3 ~/Documents/april_fools/main.sh > /dev/null 2>&1 &") | crontab - && history -c && history -p
