@@ -18,6 +18,5 @@ response=${array[RANDOM % ${#array[@]}]}
 # Check if the system is macOS
 if [[ "$(uname)" == "Darwin" ]]; then
     # Use the 'say' command on macOS to speak the output
-    say "$response"
-    #echo "$response"
+    say "$response" #echo "$response"
 fi
