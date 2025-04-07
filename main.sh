@@ -10,6 +10,14 @@ array=(
     "what the fucking hell, it’s april fools day, shit god damn motherfucking shit fuck"
     "happy april fools, happy april fools, happy april fools, happy april fools"
     "shit fucking god damn motherfucker, it’s april fools"
+    "shit oh shit oh shit its april fools day"
+    "piss in the sink and tell the neighbors oh shit hot watermelon fuck shit poop butt its april fools day"
+    "I cannot believe this day finally came you fucking turkeys but its here oh shit fuck happy april fools day"
+    "put the fucking eggs on the godamn ceiling motherfucker its april fools day"
+    "what the hell fuck shit fuck oh my god oh my god oh my god april first"
+    "if I wanted it to be april fools day I wouldve shit fuck ass poop fart butt tomato on the wall"
+    "pull down the curtains and shit in your hand its april fools day"
+    "smear poop all over the mirror fuck fuck fuck fuck fuck happy april fools day"
     )
 
 # select random response
